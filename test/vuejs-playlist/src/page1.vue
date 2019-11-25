@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<template>
+  <div id="app">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chosen Frameworks</title>
-    <style>
-        body {
-            background-color: pink;
-        }
-    </style>
-</head>
-
-<body>
-    <h1 style="text-align: center;">Vue.Js</h1>
+      <h1 style="text-align: center;">Vue.Js</h1>
     <div>VueJs is a front-end framework that’s recently gained its popularity for how simple, flexible, reactive and
         easy it is to use. VueJs is known to be a versatile well-liked beginner friendly framework as it is easy to
         understand and implement as well as being based on traditional web development techniques. The Vue library is
@@ -41,7 +28,50 @@
         back-end frameworks provide, for example, the built-in bootstrapping tool that Django offers. In addition, since
         Flask is more geared towards developing simple web applications, larger and more complex web applications would
         be more difficult. </div>
+  </div>
+</template>
 
-</body>
+<script>
+export default {
+  name: 'app',
+  data () {
+    return {
+      title: 'Dogs'
+    }
+  },
+  methods:{
+    greeting: function(){
+      return 'Hi! Welcome to our page. We love dogs.';
+    }
+  }
+}
+</script>
 
-</html>
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
+</style>

@@ -1,38 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Credits and References</title>
-    <style>
-        body {
-            background-color: pink;
-        }
-
-        table,
-        th,
-        td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            text-align: center;
-        }
-
-        th,
-        td {
-            padding: 15px;
-        }
-
-        img {
-            width: 25%;
-            height: 44%;
-        }
-    </style>
-</head>
-
-<body>
-    <h1>Credit</h1>
+<template>
+  <div id="app">
+<h1>Credit</h1>
     <table style="width:100%">
         <tr>
             <th>Name</th>
@@ -67,8 +35,50 @@
         
         <p>http://www.mindfiresolutions.com/blog/2018/05/flask-vs-django/</p>
     </div>
+  </div>
+</template>
 
+<script>
+export default {
+  name: 'app',
+  data () {
+    return {
+      title: 'Dogs'
+    }
+  },
+  methods:{
+    greeting: function(){
+      return 'Hi! Welcome to our page. We love dogs.';
+    }
+  }
+}
+</script>
 
-</body>
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 
-</html>
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
+</style>
