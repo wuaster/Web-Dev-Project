@@ -1,0 +1,10 @@
+body {background-color:black; color: darkgoldenrod}
+h3 {color: darkgoldenrod;}
+h2 {color: steelblue;}
+p {color: darkseagreen;}
+.box{
+    margin: auto;
+    border: 3px double steelblue; 
+    width:500px; height:700px;
+    padding:10px;
+}
