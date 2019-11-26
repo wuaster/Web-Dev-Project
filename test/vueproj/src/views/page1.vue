@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class='page1'>
 
       <h1 style="text-align: center;">Vue.Js</h1>
     <div>VueJs is a front-end framework that’s recently gained its popularity for how simple, flexible, reactive and
@@ -30,48 +30,3 @@
         be more difficult. </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'app',
-  data () {
-    return {
-      title: 'Dogs'
-    }
-  },
-  methods:{
-    greeting: function(){
-      return 'Hi! Welcome to our page. We love dogs.';
-    }
-  }
-}
-</script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
-</style>
