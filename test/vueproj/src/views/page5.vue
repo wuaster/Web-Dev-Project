@@ -32,10 +32,10 @@ export default {
 }
 </script>
 <style>
-body {background-color:black; color: darkgoldenrod}
+body {color: darkgoldenrod}
 h3 {color: darkgoldenrod;}
 h2 {color: steelblue;}
-p {color: darkseagreen;}
+
 .box{
     margin: auto;
     border: 3px double steelblue; 

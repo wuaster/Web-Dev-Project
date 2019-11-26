@@ -6,10 +6,10 @@
             <span class="front-weight-light">Doggies</span>
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-btn href="google.com">Contact Us</v-btn>
+        <v-btn href="">Contact</v-btn>
     </v-toolbar>
 
-    <v-navigation-drawer app v-model="drawer" class="black">
+    <v-navigation-drawer app v-model="drawer" temporary class="black">
         <v-list>
             <v-list-item v-for="link in links" :key="link.text" router :to="link.route"> 
                 <v-list-item-icon>
@@ -30,13 +30,13 @@ export default {
         return {
             drawer: false,
             links: [
-                {icon: '*', text: 'Home', route: '/'},
-                {icon: '*', text: 'Summary', route: '/page1'},
-                {icon: '*', text: 'Tutorial', route: '/page2'},
-                {icon: '*', text: 'Tutorial pt.2', route: '/page3'},
-                {icon: '*', text: 'Demo', route: '/page4'},
-                {icon: '*', text: 'Conclusion', route: '/page5'},
-                {icon: '*', text: 'Credit', route: '/page6'},
+                {icon: 'mdi-home', text: 'Home', route: '/'},
+                {icon: 'mdi-', text: 'Summary', route: '/page1'},
+                {icon: 'mdi-download', text: 'Download', route: '/page2'},
+                {icon: 'mdi-tutorial', text: 'Tutorial', route: '/page3'},
+                {icon: 'mdi-demo', text: 'Demo', route: '/page4'},
+                {icon: 'mdi-done', text: 'Conclusion', route: '/page5'},
+                {icon: 'mdi-account', text: 'Credit', route: '/page6'},
             ]
         }
 

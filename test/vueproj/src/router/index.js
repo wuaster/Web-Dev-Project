@@ -5,6 +5,7 @@ import page6 from '../views/page6.vue'
 import Home from '../views/Home.vue'
 import page4 from '../views/page4.vue'
 import page5 from '../views/page5.vue'
+import 'vue-material-design-icons/styles.css';
 
 Vue.use(VueRouter)
 
