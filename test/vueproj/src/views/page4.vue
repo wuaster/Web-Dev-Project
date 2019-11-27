@@ -7,7 +7,7 @@
     
     
     <v-toolbar flat app>
-       <v-toolbar-title style="font-family: 'Arial', cursive; text-align: center">Dog Home</v-toolbar-title>
+       <v-toolbar-title style="font-family: 'Arial', cursive; text-align: center;">Dog Home</v-toolbar-title>
     </v-toolbar>
 
 
