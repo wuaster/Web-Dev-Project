@@ -23,8 +23,8 @@
 
     </v-container>
 
-    <h1>References</h1>
-    <div>
+    <h1 style="text-align: center;">References</h1>
+    <div style="text-align: center;">
         <p>https://dev.to/kaperskyguru/why-i-learn-vuejs-as-a-backend-developer-3mma</p>
 
         <p> https://dev.to/rachaelray018/why-do-developers-prefer-vuejs-over-other-frameworks-9p8</p>
@@ -44,7 +44,7 @@ export default{
       team: [
         { name: 'Nathalie Ng', role: 'Front-end', avatar: '/nat.png' },
         { name: 'Brandon Yan', role: 'Front-end', avatar:'/brandon.png' },
-        { name: 'Sameer Naumani', role: 'Front-end', avatar:'/sameer.png' }
+        { name: 'Sameer Naumani', role: 'Back-end', avatar:'/sameer.png' }
       ]
     }
   }
