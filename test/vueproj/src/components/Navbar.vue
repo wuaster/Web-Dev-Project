@@ -7,7 +7,7 @@
             <span class="front-weight-light">Doggies</span>
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-btn href="">Contact</v-btn>
+        <v-btn href="www.digitalocean.com/layout.html">Contact</v-btn>
     </v-toolbar>
 
     <v-navigation-drawer app v-model="drawer" temporary class="black">
