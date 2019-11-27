@@ -7,7 +7,8 @@
       <p>VueJs is a front-end framework that’s recently gained its popularity for how simple, flexible, reactive and
         easy it is to use. VueJs is known to be a versatile well-liked beginner friendly framework as it is easy to
         understand and implement as well as being based on traditional web development techniques. The Vue library is
-        much smaller than other frameworks such as Angular or React, and is based on HTML, CSS and JS. It works directly
+        much smaller than other frameworks such as Angular or React, and is based on HTML, CSS and JS. The library we used for this website
+        is Vuetify. It works directly
         with DOM implementation and flexible to code in various languages. VueJs’s well defined and efficient ecosystem
         allows developers to work smoothly. This framework is also great for building complex webapps, since projects
         render more efficiently.

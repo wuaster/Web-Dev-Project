@@ -17,7 +17,7 @@
                 <v-card class="text-xs-center ma-3">
                     <v-responsive class="pt-4">
                       <v-layout column align-center>
-                        <v-avatar justify-center size="100">
+                        <v-avatar justify-center size="80%">
                             <img :src="dog.avatar">
                         </v-avatar>
                       </v-layout>
