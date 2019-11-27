@@ -34,6 +34,7 @@
         <p>https://naturaily.com/blog/pros-cons-vue-js</p>
         
         <p>http://www.mindfiresolutions.com/blog/2018/05/flask-vs-django/</p>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
   </div>
 </template>

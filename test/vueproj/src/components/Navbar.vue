@@ -2,6 +2,7 @@
     <nav>
     <v-toolbar flat app>
         <v-app-bar-nav-icon class="grey--text" @click="drawer=!drawer"></v-app-bar-nav-icon>
+        <img class="mr-3" :src="require('../assets/dog.png')" height="40"/>
         <v-toolbar-title class="text-uppercase grey--text">
             <span class="front-weight-light">Doggies</span>
         </v-toolbar-title>
