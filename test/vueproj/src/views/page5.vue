@@ -16,7 +16,10 @@
             Vuejs is a great option as it allows users to easily create designs that are both visually appealing as well as functional.</p>
         <br>
         <p class= "blocktext text">My experience with Flask also went very smoothly. 
-            Flask is a web application framework written in python</p>
+            Flask is a web application framework written in python. It was initially difficult to configure, however as we progressed it became easier to use.
+            The integration of Flask and html was a little tricky at first since when using flask it is common practice to use a template.html file and inherit the contents for all other html files.
+            Subsequently, the syntax to integrate flask and python in the rest of the html files was a learning curve but made it easier in the long run. Overall, as we further worked with 
+            flask it became easier to use.</p>
   </div>
   </body>   
 </template>

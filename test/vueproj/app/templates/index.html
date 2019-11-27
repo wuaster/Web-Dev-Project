@@ -1,0 +1,46 @@
+<!--<html>
+    <head>
+         {..}are placeholders or parameters that will be inputted at runtime utilize jinj2
+        {% if title %}  
+        <title>{{ title }} - Microblog</title>
+        {% else %}
+        <title>Welcome to MyBLOG!</title>
+        {%endif%}
+    </head>
+    <body>
+        <h1>Hello, {{user.username}}!</h1>
+        {% for post in posts %}
+        <div><p>{{ post.author.username }} says: <b>{{ post.body}} </b></p></div>
+        {% endfor %}
+    </body>
+</html>
+
+fill in the parameters when you call the function in routes.py-->
+
+{% extends "base.html" %} <!-- extends is inheritence -->
+
+{% block content %}
+    <h1>Hi, {{ user.username }}!</h1>
+    {% for post in posts %}
+    <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+    {% endfor %}
+    <html lang="en">
+        <head>
+           <meta charset="UTF-8">
+           <title></title>
+        </head>
+        <body>
+        <div align="center">
+           <h1>Upload Files</h1>
+           <h2>Upload new File</h2>
+           <form method=post action="/uploader" enctype=multipart/form-data>
+               <p><input type=file name=file>
+                   <input type=submit name="submit_button" value=Upload>
+                   <a href="http://localhost:5000/login" target="_blank" class="button" download><i class="fa fa-download"></i>submit_button</a>
+           </form>
+        </div>
+        </body>
+        </html>
+
+{% endblock %}
+

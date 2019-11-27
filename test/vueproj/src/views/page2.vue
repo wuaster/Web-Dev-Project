@@ -33,7 +33,7 @@
       <div style="text-align: center;" class="center">  
             <h3>Steps</h3>
             <ol style="text-align: left;">
-                <li>As a prerequiste: Python: <br>
+                <li>As a prerequiste: Download Python: <br>
                 For instructions follow this <a href= "https://www.python.org/downloads/"> npm installation tutorial</a></li>
                 <li>
                     Open command prompt and type: <br>
