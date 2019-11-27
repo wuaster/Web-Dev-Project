@@ -31,11 +31,11 @@ export default {
             drawer: false,
             links: [
                 {icon: 'mdi-home', text: 'Home', route: '/'},
-                {icon: 'mdi-', text: 'Summary', route: '/page1'},
+                {icon: 'mdi-paperclip', text: 'Summary', route: '/page1'},
                 {icon: 'mdi-download', text: 'Download', route: '/page2'},
-                {icon: 'mdi-tutorial', text: 'Tutorial', route: '/page3'},
-                {icon: 'mdi-demo', text: 'Demo', route: '/page4'},
-                {icon: 'mdi-done', text: 'Conclusion', route: '/page5'},
+                {icon: 'mdi-book', text: 'Tutorial', route: '/page3'},
+                {icon: 'mdi-dog', text: 'Demo', route: '/page4'},
+                {icon: 'mdi-check', text: 'Conclusion', route: '/page5'},
                 {icon: 'mdi-account', text: 'Credit', route: '/page6'},
             ]
         }

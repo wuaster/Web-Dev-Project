@@ -5,6 +5,7 @@ import page6 from '../views/page6.vue'
 import Home from '../views/Home.vue'
 import page4 from '../views/page4.vue'
 import page5 from '../views/page5.vue'
+import page3 from '../views/page3.vue'
 import 'vue-material-design-icons/styles.css';
 
 Vue.use(VueRouter)
@@ -42,6 +43,11 @@ const routes = [
     path: '/page5',
     name: 'page5',
     component: page5
+  },
+  {
+    path: '/page3',
+    name: 'page3',
+    component: page3
   }
 ]
 

@@ -3,8 +3,8 @@
   <div>
     <h1 style="text-align: center;">About Vue.Js and Flask</h1><br>
       <h2 style="text-align: center;">Vue.Js</h2>
-    <div class=box1>
-      <p>VueJs is a front-end framework that’s recently gained its popularity for how simple, flexible, reactive and
+    <div class="blocktext text">
+      <p class="blocktext text">VueJs is a front-end framework that’s recently gained its popularity for how simple, flexible, reactive and
         easy it is to use. VueJs is known to be a versatile well-liked beginner friendly framework as it is easy to
         understand and implement as well as being based on traditional web development techniques. The Vue library is
         much smaller than other frameworks such as Angular or React, and is based on HTML, CSS and JS. The library we used for this website
@@ -24,8 +24,8 @@
         forms.</p>
         </div>
     <br><h2 style="text-align: center;">Flask</h2>
-    <div class=box2>
-      <p>Flask is a popular Python web application framework mainly used by back-end web developers who develop
+    <div class="blocktext text">
+      <p class="blocktext text">Flask is a popular Python web application framework mainly used by back-end web developers who develop
         high-traffic websites. It is popular for being a lightweight web framework, as well as the ability to extend and
         customize flask for project requirements. It has integrated support for unit testing, extensive documentation
         and a container development server and debugger. It also provides functionality to accelerate development of
@@ -43,16 +43,17 @@ body {color: darkgoldenrod}
 h3 {color: darkgoldenrod;}
 h2 {color: steelblue;}
 
-.box1{
+.box{
     margin: auto;
     border: 3px double steelblue; 
     width:500px; height:700px;
     padding:10px;
 }
-.box2{
-    margin: auto;
-    border: 3px double steelblue; 
-    width:500px; height:400px;
-    padding:10px;
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    font-size: 18px;
 }
 </style>
