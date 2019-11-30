@@ -6,6 +6,7 @@
         <br>
         <h2 style = "font-family: Calibri; text-align:center">How to Develop a Good Looking Website Page</h2>
         <br>
+
         <p class="blocktext text">Vuetify provides several components that allow us to customize our website. 
             One of the elements that we included was the v-toolbar component, which allows us to create a toolbar on the top of our website. 
             Having the toolbar makes it very simple for users to switch between pages.</p>
@@ -41,7 +42,30 @@
         <h1 style = "font-family: Calibri; text-align:center;font-size:60px">Back End</h1>
         <br>
         <br>
-        <h2 style = "font-family: Calibri; text-align:center">How to Develop a Good Looking Website Page</h2>
+        <h2 style = "font-family: Calibri; text-align:center">How Does it Work?</h2>
+        <br>
+
+        <p class="blocktext text">The backend part of our website is our contact function. On the top right of the page, you can click the contact button to try 
+            out this function.</p>
+        <p class="blocktext text">For this segment of our website, we had to create a different application that was completely seperate from our website's 
+            main code. Having an entirely different section for our contact page was a much easier process compared to merging our Vue, Vuetify, and Flask codes.</p>
+        <p class="blocktext text">We formatted the layout of the page with simple HTML, CSS, and Bootstrap. The following code shows how we stored the fields on our form.</p>
+        <img src="/backend1.png" alt="" style="width:900px;height:380px;" class="center">
+        <br>
+        <br>
+        
+        <p class="blocktext text">We also validate the users inputs to check if all the fields have been filled in. A error message will be sent if all fields 
+            are not properly filled.</p>
+        <img src="/backend2.png" alt="" style="width:900px;height:400px;" class="center">
+        <br>
+        <br>
+
+        <p class="blocktext text">In order to initialize the contact page, we first added routes to the main page, then also added on controllers.
+            The controller contains a method for each of the available operations on the site.</p>
+        <p class="blocktext text">There are two parts to our controller, the first is "get" and the other is "post". The "get" route directs the user to the 
+            main contact page. The "post" route is used when the form is submitted by the user.</p>
+        <img src="/backend3.png" alt="" style="width:900px;height:355px;" class="center">
+        <br>
         <br>
     </div>
 </body>
